@@ -8,6 +8,21 @@
 		{
 			"name": "http://127.0.0.1:5000/todo/api/v1.0/tasks",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "python",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "testapi",
+							"type": "string"
+						}
+					]
+				},
 				"method": "POST",
 				"header": [
 					{
@@ -43,6 +58,21 @@
 		{
 			"name": "http://127.0.0.1:5000/todo/api/v1.0/tasks Copy",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "python",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "testapi",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [
 					{
@@ -75,6 +105,21 @@
 		{
 			"name": "http://127.0.0.1:5000/todo/api/v1.0/tasks Copy Copy",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "python",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "testapi",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [
 					{
@@ -107,6 +152,21 @@
 		{
 			"name": "http://127.0.0.1:5000/todo/api/v1.0/tasks Copy",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "python",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "testapi",
+							"type": "string"
+						}
+					]
+				},
 				"method": "PUT",
 				"header": [
 					{
@@ -143,10 +203,25 @@
 		{
 			"name": "http://127.0.0.1:5000/todo/api/v1.0/tasks/3",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "python",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "testapi",
+							"type": "string"
+						}
+					]
+				},
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/todo/api/v1.0/tasks/3",
+					"raw": "http://127.0.0.1:5000/todo/api/v1.0/tasks/2",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -160,7 +235,7 @@
 						"api",
 						"v1.0",
 						"tasks",
-						"3"
+						"2"
 					]
 				}
 			},
